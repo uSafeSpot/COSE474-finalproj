@@ -56,6 +56,10 @@ class BPMLLLoss(torch.nn.Module):
         r"""
         compute \sum_{(k, l) \in Y_i \times \bar{Y}_i} \exp{-c^i_k+c^i_l}
         """
+        print(y.shape, y_bar.shape, c.shape)
+        print(y)
+        print(y_bar)
+        print(c)
         truth_matrix = y.unsqueeze(2).float() @ y_bar.unsqueeze(1).float()
         exp_matrix = torch.exp(c.unsqueeze(1) - c.unsqueeze(2))
         return (torch.mul(truth_matrix, exp_matrix)).sum(dim=(1, 2))
