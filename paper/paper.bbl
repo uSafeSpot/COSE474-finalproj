@@ -1,19 +1,59 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[athavale et~al.(2019)athavale, Naik, vanjape, and
+  Shrivastava]{athavale2019}
+athavale, v., Naik, A., vanjape, r., and Shrivastava, M.
+\newblock Predicting algorithm classes for programming word problems.
+\newblock 03 2019.
+
 \bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{devlin2019bert}
 Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K.
 \newblock Bert: Pre-training of deep bidirectional transformers for language
   understanding, 2019.
 
-\bibitem[Lobanov et~al.(2023)Lobanov, Bogomolov, Golubev, Mirzayanov, and
-  Bryksin]{lobanov2023predicting}
-Lobanov, A., Bogomolov, E., Golubev, Y., Mirzayanov, M., and Bryksin, T.
-\newblock Predicting tags for programming tasks by combining textual and source
-  code data, 2023.
+\bibitem[Halim et~al.(2013)Halim, Halim, Skiena, and
+  Revilla]{halim2013competitive}
+Halim, S., Halim, F., Skiena, S.~S., and Revilla, M.~A.
+\newblock \emph{Competitive programming 3}.
+\newblock Citeseer, 2013.
+
+\bibitem[Iancu et~al.(2019)Iancu, Mazzola, Psarakis, and
+  Soilis]{iancu2019multilabel}
+Iancu, B., Mazzola, G., Psarakis, K., and Soilis, P.
+\newblock Multi-label classification for automatic tag prediction in the
+  context of programming challenges, 2019.
+
+\bibitem[Li et~al.(2022)Li, Choi, Chung, Kushman, Schrittwieser, Leblond,
+  Eccles, Keeling, Gimeno, Dal~Lago, Hubert, Choy, de~Masson~d’Autume,
+  Babuschkin, Chen, Huang, Welbl, Gowal, Cherepanov, Molloy, Mankowitz,
+  Sutherland~Robson, Kohli, de~Freitas, Kavukcuoglu, and Vinyals]{alphacode}
+Li, Y., Choi, D., Chung, J., Kushman, N., Schrittwieser, J., Leblond, R.,
+  Eccles, T., Keeling, J., Gimeno, F., Dal~Lago, A., Hubert, T., Choy, P.,
+  de~Masson~d’Autume, C., Babuschkin, I., Chen, X., Huang, P.-S., Welbl, J.,
+  Gowal, S., Cherepanov, A., Molloy, J., Mankowitz, D.~J., Sutherland~Robson,
+  E., Kohli, P., de~Freitas, N., Kavukcuoglu, K., and Vinyals, O.
+\newblock Competition-level code generation with alphacode.
+\newblock \emph{Science}, 378\penalty0 (6624):\penalty0 1092–1097, December
+  2022.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.abq1158}.
+\newblock URL \url{http://dx.doi.org/10.1126/science.abq1158}.
+
+\bibitem[Liu \& Qi(2017)Liu and Qi]{Liu2017LearningEB}
+Liu, L. and Qi, H.
+\newblock Learning effective binary descriptors via cross entropy.
+\newblock \emph{2017 IEEE Winter Conference on Applications of Computer Vision
+  (WACV)}, pp.\  1251--1258, 2017.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:7909651}.
+
+\bibitem[Loshchilov \& Hutter(2019)Loshchilov and
+  Hutter]{loshchilov2019decoupled}
+Loshchilov, I. and Hutter, F.
+\newblock Decoupled weight decay regularization, 2019.
 
 \end{thebibliography}
